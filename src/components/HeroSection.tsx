@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub,  } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 const HeroSection = () => {
   return (
@@ -24,9 +24,7 @@ const HeroSection = () => {
         <a href="https://github.com/Assasingh7" target="_blank" rel="noopener noreferrer">
           <FaGithub size={30} />
         </a>
-        {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin size={30} />
-        </a> */}
+        
       </div>
     </section>
   );

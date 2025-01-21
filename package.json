@@ -1,6 +1,6 @@
 {
   "name": "sci-fi-portfolio",
-  "private": true,
+  
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -15,6 +15,8 @@
     "@react-three/fiber": "^8.17.10",
     "framer-motion": "^11.11.17",
     "react": "^18.3.1",
+    "react-icons": "^4.10.1"
+,
     "react-dom": "^18.3.1",
     "react-parallax-tilt": "^1.7.257",
     "three": "^0.170.0"
