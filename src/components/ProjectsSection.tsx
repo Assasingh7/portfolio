@@ -9,7 +9,7 @@ const projects = [
     title: 'Store It',
     description: 'An application similar to Google drive with great ui ',
     image: storeit,
-    demoLink: 'https://store-3yzkafubv-assa-singhs-projects.vercel.app',
+    demoLink: 'https://store-gxdcwnpkf-assa-singhs-projects.vercel.app',
     codeLink: 'https://github.com/Assasingh7/store-it',
   },
   {
