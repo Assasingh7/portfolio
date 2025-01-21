@@ -1,0 +1,67 @@
+/* Skill Section Container */
+.skills-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  padding: 20px;
+}
+
+/* Title */
+.section-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* Skills Grid Layout */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Create 5 equal columns */
+  grid-template-rows: repeat(2, auto);  /* Create 2 rows for alternating skill positions */
+  gap: 20px;
+  max-width: 1000px; /* Limit width */
+  margin-top: 50px;
+}
+
+/* Skill Items */
+.skill-item {
+  background-color: #555;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  animation: blink 2s infinite;  /* Apply blinking animation */
+}
+
+/* Blinking Animation */
+@keyframes blink {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+/* Adjusting animation delay for a bit of randomness */
+.skill-item:nth-child(odd) {
+  animation-delay: 0.5s;
+}
+
+.skill-item:nth-child(even) {
+  animation-delay: 1s;
+}
+
